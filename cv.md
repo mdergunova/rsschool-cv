@@ -26,4 +26,15 @@ function paperwork(n, m) {
 * HTML basics
 * CSS basics
 * git
+## Education
 
+* Kherson institute of Economics and law 
+* Courses HTML, CSS in IT school [Goit](https://goit.global/ua/)  
+## Experience
+
+
+## Languages
+
+* Ukrainian: native
+* Russian: fluent
+* English: Intermediate (need a speaking practice)

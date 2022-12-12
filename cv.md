@@ -5,7 +5,7 @@
 
 * Location: Dnipro, Ukraine
 * Email: marina.dnepro@gmail.com
-* Telegram: @kolosOk04
+* Telegram: @marin4ik82
 * Phone: +38 099 274-86-33
 ## About me
 

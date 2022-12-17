@@ -1,19 +1,29 @@
+:root {
+  --title-color: #000000;
+  --main-color: #595959;
+  --sidebar-color: #444444;
+  --link-color: #1b1377;
+}
 body {
   font-family: Montserrat, sans-serif;
   background-color: #f5f7fa;
+  margin: 0 0 200px 100px;
+  width: 1200px;
+ }
+a:any-link {
+  text-decoration: none;
 }
-
 .main_section {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
-  background-color: #fff;
-  margin: 40px auto;
+  background-color: #FDF4E3;
+  margin: 3px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main_contant_section {
   padding: 100px 90px;
+  width: 60%;
 }
 
 .about_me_information {
@@ -27,7 +37,7 @@ body {
   font-weight: bold;
   font-size: 40px;
   line-height: 55px;
-  color: #000000;
+  color: var(--title-color);
   margin: 0 0 25px 0;
 }
 
@@ -35,9 +45,9 @@ body {
   width: 400px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
-  color: #595959;
+  color: var(--main-color);
 }
 
 .title {
@@ -45,7 +55,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #000000;
+  color: var(--title-color);
   margin-bottom: 10px;
 }
 
@@ -54,24 +64,26 @@ body {
 }
 
 .code {
-  color: #595959;
+  color: var(--main-color);
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
 }
 
 .education_section,
+.education_section_link,
 .languages,
 .contacts,
 .tech_skills,
-.soft_skills {
+.soft_skills,
+.tech_skills_link {
   width: 400px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
-  color: #444444;
+  color: var(--sidebar-color);
 }
 
 .education_section_item,
@@ -84,7 +96,7 @@ body {
 
 .sidebar_section {
   background-color: #c8cdd3;
-  width: 370px;
+  width: 40%;
   padding: 40px 0;
 }
 
@@ -99,8 +111,48 @@ body {
 .soft_skills {
   margin: 50px 0 0 40px;
 }
+.contact_detal {
+  color: var(--main-color);
+}
+.contact_detal:hover,
+.tech_skills_link:hover,
+.education_section_link:hover {
+  color: var(--link-color);
+  font-weight: bold;
+}
+.contacts_item {
+font-weight: bold;
+}
 
 .tech_skills_list,
 .soft_skills_list {
   padding: 0 0 0 18px;
+}
+.footer {
+  display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    padding: 20px;
+    background: #FDF4E3;
+ 
+}
+.footer_date {
+  width: 100px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.footer_github {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--title-color);
+}
+
+.footer_rsschool {
+  border: 20px;
+  box-sizing: border-box;
 }

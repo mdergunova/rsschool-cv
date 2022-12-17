@@ -7,8 +7,9 @@
 body {
   font-family: Montserrat, sans-serif;
   background-color: #f5f7fa;
-  margin: 0 0 200px 100px;
-  width: 1200px;
+  margin: 0 200px 200px 100px;
+  box-sizing: border-box;
+  
  }
 a:any-link {
   text-decoration: none;
@@ -93,7 +94,6 @@ a:any-link {
   list-style-type: square;
 }
 
-
 .sidebar_section {
   background-color: #c8cdd3;
   width: 40%;
@@ -111,6 +111,7 @@ a:any-link {
 .soft_skills {
   margin: 50px 0 0 40px;
 }
+
 .contact_detal {
   color: var(--main-color);
 }
@@ -120,24 +121,28 @@ a:any-link {
   color: var(--link-color);
   font-weight: bold;
 }
+.contacts_list {
+  list-style-type: none;
+  }
+
 .contacts_item {
-font-weight: bold;
+ font-weight: bold;
 }
 
 .tech_skills_list,
-.soft_skills_list {
+.soft_skills_list,
+.contacts_list {
   padding: 0 0 0 18px;
 }
+
 .footer {
   display: flex;
-    box-sizing: border-box;
-    justify-content: space-between;
-    align-items: center;
-    width: 1200px;
-    padding: 20px;
-    background: #FDF4E3;
- 
-}
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #FDF4E3;
+ }
+
 .footer_date {
   width: 100px;
   font-size: 32px;

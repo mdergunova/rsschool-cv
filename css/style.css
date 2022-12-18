@@ -7,7 +7,7 @@
 body {
   font-family: Montserrat, sans-serif;
   background-color: #f5f7fa;
-  margin: 0 200px 200px 100px;
+  margin: 100px 200px 200px 100px;
   box-sizing: border-box;
   
  }
@@ -43,7 +43,6 @@ a:any-link {
 }
 
 .description {
-  width: 400px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -100,7 +99,7 @@ a:any-link {
   padding: 40px 0;
 }
 
-.displayed {
+.cv_img {
   display: block;
   margin-left: auto;
   margin-right: auto
@@ -123,6 +122,7 @@ a:any-link {
 }
 .contacts_list {
   list-style-type: none;
+  padding-left: 3px;
   }
 
 .contacts_item {
@@ -130,27 +130,24 @@ a:any-link {
 }
 
 .tech_skills_list,
-.soft_skills_list,
-.contacts_list {
+.soft_skills_list {
   padding: 0 0 0 18px;
-}
+  }
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   background: #FDF4E3;
  }
 
 .footer_date {
-  width: 100px;
   font-size: 32px;
   line-height: 32px;
   font-weight: bold;
 }
 
-.footer_github {
+/*.footer_github {
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -159,5 +156,5 @@ a:any-link {
 
 .footer_rsschool {
   border: 20px;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
